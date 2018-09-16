@@ -1,0 +1,41 @@
+
+<%=form_for(@movie) do |f|%>
+  <%= render "shared/errors", object: @movie %>
+  <fieldset>
+    <table width="90%" align="center">
+      <tr>
+        <th align="left"><%=f.label :image_file_name%></th><td align="right"><%=f.text_field :image_file_name%></td>
+      </tr>
+      <tr>
+        <th align="left"><%=f.label :title%></th><td  align="right" class="required"><%=f.text_field :title%></td>
+      </tr>
+      <tr>
+        <th align="left"><%=f.label :rating%></th><td  align="right" class="required"><%= f.select :rating, Movie::RATINGS, prompt: "Pick one" %></td>
+      </tr>
+      <tr>
+        <th align="left"><%=f.label :director%></th><td align="right" class="required"><%=f.text_field :director%></td>
+      </tr>
+      <tr>
+        <th align="left"><%=f.label :cast%></th><td align="right" class="required"><%=f.text_field :cast%></td>
+      </tr>
+      <tr>
+        <th align="left"><%=f.label :duration%></th><td align="right" class="required"><%=f.text_field :duration%></td>
+      </tr>
+      <tr>
+        <th align="left"><%=f.label :released_on%></th><td align="right" class="required"><%=f.date_field :released_on.to_date, default: Date.today%></td>
+      </tr>
+      <tr>
+        <th align="left"><%=f.label :description%></th><td align="right" class="required"><%=f.text_area :description%></td>
+      </tr>
+      <tr>
+        <th align="left"><%=f.label :rank%> (Out of 10)</th><td align="right" class="required"><%=f.text_field :rank%></td>
+      </tr>
+      <tr>
+        <th align="left"><%=f.label :total_gross%></th><td align="right" class="required"><%=f.text_field :total_gross%></td>
+      </tr>
+      <tr>
+        <th></th><td align="right"><%= f.submit %></td>
+      </tr>
+    </table><br /><br />
+  </fieldset>
+<% end %>

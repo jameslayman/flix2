@@ -1,0 +1,117 @@
+_Rails:_
+-----------------------------------
+Monday, August 13th:
+- Introduction
+- Create the App
+- Views and Controllers
+Wednesday, August 15th:
+- Models
+- Connecting MVC
+- Migrations
+-----------------------------------
+Monday, August 20th
+- Helpers
+- Routes
+
+Wednesday, August 22th
+- Test-First
+- Forms
+-----------------------------------
+Monday, August 27th
+- Partials
+- Destroy
+
+Wednesday, August 29th
+- Custom Queries
+- Migrations Revisited
+-----------------------------------
+Monday, September 3rd
+*NO CLASS LABOR DAY*
+
+Wednesday, September 5th
+- Layouts
+- Assets
+- Validations
+- The Flash
+
+-----------------------------------
+Monday, September 10th
+- One-To-Many: Models
+- One-To-Many: Nested Resources
+
+Wednesday, September 12th
+- One-To-Many: Forms
+- One-To-Many: Logic
+- Deployment
+- Wrap Up
+-----------------------------------
+
+_Rails II:_
+-----------------------------------
+Monday, September 17th
+- Introduction
+- User Accounts: Model
+- User Accounts: UI_
+
+Wednesday, September 19th
+- Sign in
+- Sign out
+- Authorization
+- Admin Users
+-----------------------------------
+Monday, September 24th
+- Many-To-Many Associations
+- Through Associations
+
+Wednesday, September 26th
+- Many-To-Many with Checkboxes
+- Action-Specific Layout Content
+-----------------------------------
+Monday, October 1st
+- Scopes
+- Custom Routes
+
+Wednesday, October 3rd
+- Friendly URL’s
+- Wrap Up
+-----------------------------------
+
+_Employer:_
+-----------------------------------
+Monday, October 8th:
+- Project/Catching up/Questions/Learning any language the employers need you to (Angular)
+- Mock interviews
+
+Wednesday, October 10th:
+- Project/Catching up/Questions/Learning any language the employers need you to (Angular)
+- Mock interviews
+-----------------------------------
+Monday, October 15th:
+- Employer Project (Week 1)
+
+Wednesday, October 17th:
+- Employer Project (Week 1)
+-----------------------------------
+Monday, October 22nd:
+- Employer Project (Week 2)
+
+Wednesday, October 24th:
+- Employer Project (Week 2)
+-----------------------------------
+Monday, October 29th:
+- Employer Project (Week 3)
+
+Wednesday, October 31st(HALLOWEEN):
+- Employer Project (Week 3)
+-----------------------------------
+Monday, November 5th:
+- Employer Project (Week 4)
+
+Wednesday, November 7th:
+- Employer Project (Week 4)
+-----------------------------------
+Monday, November 12
+- Employer Project showcase
+
+Wednesday, November 14
+- Code Labs One Cape Girardeau 2018 Graduation (edited)

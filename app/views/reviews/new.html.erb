@@ -1,0 +1,25 @@
+<header id="content-header">
+  <h1>Add a Review for <%= link_to(@movies.title, @movies) %></h1>
+</header>
+
+<%= form_for ([@movies, @review]) do |r| %>
+  <%= render "shared/errors", object: @review%>
+  <fieldset>
+    <p>
+      <%= r.label :name %>
+      <%= r.text_field :name %>
+    </p>
+    <p>
+      <%= r.label :stars %>
+      <%= r.select :stars, Review::STARS, prompt: "Pick one" %>
+    </p>
+    <p>
+      <%= r.label :comment %><br/>
+        <%= r.text_area :comment, cols: 40, rows: 10, placeholder: "Tell us what you think!" %>
+    </p>
+    <p>
+      <%= r.submit %>
+      <%= link_to "Cancel", movies_path, class: 'button' %>
+    </p>
+  </fieldset>
+<% end %>
